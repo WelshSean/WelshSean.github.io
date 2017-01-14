@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Automator or things, Dog Walker extrordinaire, Raspberry Pi Tinkerer.
+Automator of things, Dog Walker extrordinaire, Raspberry Pi tinkerer.
 
 ### More Information
 
