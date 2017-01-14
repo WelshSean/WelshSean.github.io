@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Automator or things, Dog Walker extrordinaire, Raspberry Pi Tinkerer.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I started out as a Physicist, became a systems administrator, moved on to doing Infrastructure Automation on a very large scale. Presently have my head in the Cloud and am interested in using machines to predict things.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[blog@nay-clarke.com](mailto:blog@nay-clarke.com)
