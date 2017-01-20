@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Burning an Image to an SD Card on OSX
+category: OSX
+tags: [OSX]
 ---
 
 First of all let's find the disk

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Test Application To Run UNder Docker
+title: Building a Test Application To Run Under Docker
 ---
 
 # Building a test app for Docker
@@ -27,18 +27,19 @@ One last point is the last thing I do in the Dockerfile is to run the test appli
 
 The image can then be built as follows
 
-```
+{% highlight bash %}
 git clone https://github.com/WelshSean/piClustering
 cd piClustering/ContainerTestApp
 docker build -t welshsean/testapp:latest .
-```
+{% endhighlight %}
 
 and then the container can be run using the command below
 
-```
+{% highlight bash %}
 docker run -d -e AWS_DEFAULT_REGION='eu-west-2' -e AWS_ACCESS_KEY_ID='your key id' \
 -e AWS_SECRET_ACCESS_KEY='your key' welshsean/testapp:latest
-```
+{% endhighlight %}
+
 
 You need to modify this line to reflect your desired target region and the credentials for an IAM user that has read-write access to your SQS queue, which at present I've defaulted to being called heartbeat. The values following each -e will override the nonsense values that I previously supplied for them during the build - this will lead to three environment variables being set inside the container, which AWSCLI and/or boto3 use to access the AWS API.
 
